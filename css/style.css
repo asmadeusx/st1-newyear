@@ -49,7 +49,7 @@ h1{
     width: 1380px;
     background: rgb(136,153,193);
     background: linear-gradient(0deg, rgba(136,153,193,1) 0%, rgba(80,77,122,1) 34%, rgba(43,55,90,1) 54%, rgba(0,0,0,1) 85%);
-    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
 /* Подвал */
 .footer{
