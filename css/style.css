@@ -209,72 +209,139 @@ h1{
 
 
 /* ================================================================================================ */
-/* БЛОК ЕЛКИ */
-.tree_top, 
-.tree_top:before, 
-.tree_top:after, 
-.tree_bottom, 
-.tree_bottom:before, 
-.tree_bottom:after{
-    height: 0;
+/* БЛОК ЕЛКИ FLEX */
+.tree{
     position: absolute;
+    top: 85px;
+    left: 335px;
+}
+.tree .tree_branches_trunk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    height: 0;
     width: 0;
+    position: absolute;
+    top: -15px;
     border-radius: 30px;  /* угол кончиков веточек */
 }
-/* елка, верхняя часть */
-.tree_top{
+.tree .tree_branches_trunk .tree_trunk{
+    z-index: 1;
+    background: rgb(66, 18, 18);
+    height: 340px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+}
+.tree .tree_branches_trunk .tree_branche1{
+    z-index: 2;
+    margin-top: -5px;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid green;
-    left: 390px;
-    top: 135px;
+    border-bottom: 40px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 0px;
 }
-.tree_top:before{
-    content:'';
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 40px solid green;
-    left: -40px;
-    top: 15px;
+.tree .tree_branches_trunk .tree_branche2{
+    z-index: 3;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 20px
 }
-.tree_top:after{
-    content:'';
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 60px solid green;
-    left: -60px;
-    top: 40px;
+.tree .tree_branches_trunk .tree_branche3{
+    z-index: 4;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 40px
 }
-/* елка, нижняя часть */
-.tree_bottom{
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    border-bottom: 80px solid green;
-    left: 330px;
-    top: 210px;
+.tree .tree_branches_trunk .tree_branche4{
+    z-index: 5;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 60px
 }
-.tree_bottom:before{
-    content:'';
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid green;
-    left: -100px;
-    top: 40px;
+.tree .tree_branches_trunk .tree_branche5{
+    z-index: 6;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 80px
 }
-.tree_bottom:after{
-    content:'';
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-    border-bottom: 120px solid green;
-    left: -120px;
-    top: 80px;
+.tree .tree_branches_trunk .tree_branche6{
+    z-index: 7;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 100px
 }
-/* ================================================================================================ */
-
-
-/* ================================================================================================ */
-/* БЛОК ЕЛКИ FLEX */
-
+.tree .tree_branches_trunk .tree_branche7{
+    z-index: 8;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 120px
+}
+.tree .tree_branches_trunk .tree_branche8{
+    z-index: 9;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 28px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 140px
+}
+.tree .tree_branches_trunk .tree_branche9{
+    z-index: 10;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 160px
+}
+.tree .tree_branches_trunk .tree_branche10{
+    z-index: 11;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 180px
+}
+.tree .tree_branches_trunk .tree_branche11{
+    z-index: 12;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 200px
+}
+.tree .tree_branches_trunk .tree_branche12{
+    z-index: 13;
+    margin-top: -5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid rgb(0, 150, 0);
+    border-radius: inherit;
+    width: 220px;
+}
 /* ================================================================================================ */
 
 
