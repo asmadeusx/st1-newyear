@@ -210,7 +210,7 @@ h1{
 /* ================================================================================================ */
 /* БЛОК ЕЛКИ FLEX */
 .tree{
-    position: absolute;
+    position: relative;
     top: 85px;
     left: 335px;
 }
@@ -340,6 +340,61 @@ h1{
     border-bottom: 25px solid rgb(0, 128, 0);
     border-radius: inherit;
     width: 220px;
+}
+.tree .tree_tinsels{
+    z-index: 20;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    /* border-radius: 25px; */
+}
+.tree .tree_tinsels .tree_tinsel_top{
+    z-index: inherit;
+    position: absolute;
+    border-left: 10px solid rgb(255, 255, 0);
+    border-right: 10px solid rgb(255, 255, 0);
+    border-bottom: 10px solid rgb(255, 255, 0);
+    border-radius: 23px;
+    height: 25px;
+    width: 60px;
+    top: 25px;
+    left: -70px;
+}
+.tree .tree_tinsels .tree_tinsel_center1{
+    z-index: inherit;
+    position: absolute;
+    border-left: 10px solid rgb(0, 255, 0);
+    border-right: 10px solid rgb(0, 255, 0);
+    border-bottom: 10px solid rgb(0, 255, 0);
+    border-radius: 23px;
+    height: 25px;
+    width: 110px;
+    top: 85px;
+    left: -95px;
+}
+.tree .tree_tinsels .tree_tinsel_center2{
+    z-index: inherit;
+    position: absolute;
+    border-left: 10px solid rgb(0, 0, 255);
+    border-right: 10px solid rgb(0, 0, 255);
+    border-bottom: 10px solid rgb(0, 0, 255);
+    border-radius: 23px;
+    height: 25px;
+    width: 160px;
+    top: 145px;
+    left: -120px;
+}
+.tree .tree_tinsels .tree_tinsel_bottom{
+    z-index: inherit;
+    position: absolute;
+    border-left: 10px solid rgb(140, 0, 255);
+    border-right: 10px solid rgb(140, 0, 255);
+    border-bottom: 10px solid rgb(140, 0, 255);
+    border-radius: 23px;
+    height: 25px;
+    width: 210px;
+    top: 195px;
+    left: -145px;
 }
 /* ================================================================================================ */
 
