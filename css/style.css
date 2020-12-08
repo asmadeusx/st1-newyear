@@ -51,6 +51,17 @@ h1{
     background: linear-gradient(0deg, rgba(136,153,193,1) 0%, rgba(80,77,122,1) 34%, rgba(43,55,90,1) 54%, rgba(0,0,0,1) 85%);
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
+/* Аудиоплеер */
+.audioplayer{
+    display: block;
+    position: relative;
+    padding:  15px 0 15px 0;
+    width: 1380px;
+    margin: 0px auto;
+}
+.audioplayer audio{
+    width: 100%;
+}
 /* Подвал */
 .footer{
     height: 50px;
@@ -59,7 +70,8 @@ h1{
     position: relative;
     text-align: center;
     color: white;
-    padding: 15px 0 15px 0;
+    padding: 0 10px;
+    margin: 0 auto;
     color: #808080;
 }
 /* ================================================================================================ */
