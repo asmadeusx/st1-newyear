@@ -412,7 +412,7 @@ h1{
 }
 /* БЛОК ЕЛКИ FLEX - Звездочка*/
 .tree .tree_decorations .header_star{
-
+    position: absolute;
 }
 /* БЛОК ЕЛКИ FLEX - Гирлянд*/
 .tree .tree_decorations .lights{
