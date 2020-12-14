@@ -412,7 +412,53 @@ h1{
 }
 /* БЛОК ЕЛКИ FLEX - Звездочка*/
 .tree .tree_decorations .header_star{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    z-index: 20;
+    top: -60px;
+    left: -50px;
+}
+.tree .tree_decorations .header_star .star{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 50px 0;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #fc2e5a;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    color: #fc2e5a;
+}
+.tree .tree_decorations .header_star .star:before{
     position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    top: -45px;
+    left: -65px;
+    border-bottom: 80px solid #fc2e5a;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(-35deg);
+    color: #fc2e5a;
+}
+.tree .tree_decorations .header_star .star:after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    top: 3px;
+    left: -105px;
+    color: #fc2e5a;
+    border-bottom: 70px solid #fc2e5a;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    transform: rotate(70deg);
 }
 /* БЛОК ЕЛКИ FLEX - Гирлянд*/
 .tree .tree_decorations .lights{
