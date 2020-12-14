@@ -226,6 +226,7 @@ h1{
     top: 85px;
     left: 335px;
 }
+/* БЛОК ЕЛКИ FLEX - Ствол и ветви*/
 .tree .tree_branches_trunk{
     display: flex;
     flex-direction: column;
@@ -353,14 +354,15 @@ h1{
     border-radius: inherit;
     width: 220px;
 }
-.tree .tree_tinsels{
+/* БЛОК ЕЛКИ FLEX - Мишура*/
+.tree .tree_decorations .tree_tinsels{
     z-index: 20;
     position: absolute;
     top: 20px;
     left: 30px;
     /* border-radius: 25px; */
 }
-.tree .tree_tinsels .tree_tinsel_top{
+.tree .tree_decorations .tree_tinsels .tree_tinsel_top{
     z-index: inherit;
     position: absolute;
     border-left: 10px solid rgb(255, 255, 0);
@@ -372,7 +374,7 @@ h1{
     top: 25px;
     left: -70px;
 }
-.tree .tree_tinsels .tree_tinsel_center1{
+.tree .tree_decorations .tree_tinsels .tree_tinsel_center1{
     z-index: inherit;
     position: absolute;
     border-left: 10px solid rgb(0, 255, 0);
@@ -384,7 +386,7 @@ h1{
     top: 85px;
     left: -95px;
 }
-.tree .tree_tinsels .tree_tinsel_center2{
+.tree .tree_decorations .tree_tinsels .tree_tinsel_center2{
     z-index: inherit;
     position: absolute;
     border-left: 10px solid rgb(0, 0, 255);
@@ -396,7 +398,7 @@ h1{
     top: 145px;
     left: -120px;
 }
-.tree .tree_tinsels .tree_tinsel_bottom{
+.tree .tree_decorations .tree_tinsels .tree_tinsel_bottom{
     z-index: inherit;
     position: absolute;
     border-left: 10px solid rgb(140, 0, 255);
@@ -407,6 +409,176 @@ h1{
     width: 210px;
     top: 195px;
     left: -145px;
+}
+/* БЛОК ЕЛКИ FLEX - Звездочка*/
+.tree .tree_decorations .header_star{
+
+}
+/* БЛОК ЕЛКИ FLEX - Гирлянд*/
+.tree .tree_decorations .lights{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+}
+[class^="light-r"] {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation: light-r 5s infinite;
+    z-index: 15;
+}
+.tree .tree_decorations .lights .lights_red{
+    position: absolute;
+    z-index: inherit;
+}
+@keyframes light-r {
+    0%   {background:transparent;}
+    50%  {background:#ff0000;}
+    100% {background:transparent;}
+}
+[class^="light-p"] {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation: light-p 5s infinite;
+    z-index: 15;
+}
+.tree .tree_decorations .lights .lights_pink{
+    position: absolute;
+    z-index: inherit;
+}
+@keyframes light-p {
+    0%   {background:transparent;}
+    50%  {background:#ea00ff;}
+    100% {background:transparent;}
+}
+[class^="light-c"] {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation: light-c 5s infinite;
+    z-index: 15;
+}
+.tree .tree_decorations .lights .lights_cyan{
+    position: absolute;
+    z-index: inherit;
+}
+@keyframes light-c {
+    0%   {background:transparent;}
+    50%  {background:#00f7ff;}
+    100% {background:transparent;}
+}
+.tree .tree_decorations .lights .light-r1{
+    top: 15px;
+    left: -8px;
+}
+.tree .tree_decorations .lights .light-p2{
+    top: 30px;
+    left: 7px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-c3{
+    top: 45px;
+    left: -15px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-r4{
+    top: 60px;
+    left: 0px;
+    animation-delay: 1s;
+}
+.tree .tree_decorations .lights .light-c5 {
+    top: 81px;
+    left: -25px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-c6 {
+    top: 90px;
+    left: 15px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-r7 {
+    top: 105px;
+    left: -32px;
+    animation-delay: 1s;
+}
+.tree .tree_decorations .lights .light-p8 {
+    top: 120px;
+    left: 16px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-p9 {
+    top: 145px;
+    left: -56px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-r10 {
+    top: 150px;
+    left: 0px;
+    animation-delay: 1s;
+}
+.tree .tree_decorations .lights .light-c11 {
+    top: 165px;
+    left: -33px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-p12 {
+    top: 180px;
+    left: 35px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-r13 {
+    top: 184px;
+    left: -72px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-p14 {
+    top: 218px;
+    left: -68px;
+    animation-delay: 1s;
+}
+.tree .tree_decorations .lights .light-r15 {
+    top: 207px;
+    left: -14px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-c16 {
+    top: 225px;
+    left: 56px;
+    animation-delay: 2s;
+}
+.tree .tree_decorations .lights .light-r17 {
+    top: 255px;
+    left: -102px;
+    animation-delay: 1s;
+}
+.tree .tree_decorations .lights .light-p18 {
+    top: 259px;
+    left: 103px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-c19 {
+    top: 253px;
+    left: -42px;
+    animation-delay: 3s;
+}
+.tree .tree_decorations .lights .light-r20 {
+    top: 259px;
+    left: 37px;
+    animation-delay: 3s;
 }
 /* ================================================================================================ */
 
