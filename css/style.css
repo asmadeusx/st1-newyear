@@ -413,7 +413,6 @@ h1{
 /* БЛОК ЕЛКИ - Звездочка*/
 .tree .tree_decorations .header_star{
     position: relative;
-    /* overflow: hidden; */
     height: 100px;
     width: 100px;
     z-index: 20;
@@ -430,6 +429,7 @@ h1{
     border-bottom: 35px solid #e6cf00;
     border-left: 50px solid transparent;
     transform: rotate(35deg);
+    z-index: 21;
 }
 .tree .tree_decorations .header_star .star:before{
     content: "";
@@ -442,6 +442,7 @@ h1{
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     transform: rotate(-35deg);
+    z-index: 21;
 }
 .tree .tree_decorations .header_star .star:after{
     content: "";
@@ -454,6 +455,7 @@ h1{
     border-bottom: 35px solid #e6cf00;
     border-left: 50px solid transparent;
     transform: rotate(-70deg);
+    z-index: 21;
 }
 .tree .tree_decorations .header_star .glow_effect{
     border-radius: 50%;
@@ -462,7 +464,7 @@ h1{
 	height: 30px;
     position: absolute;
     animation: anim-glow 5s ease infinite;
-    z-index: 21;
+    z-index: 19;
     top: 55px;
     left: 32px;
 }
