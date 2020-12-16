@@ -418,7 +418,7 @@ h1{
     z-index: 20;
     top: -85px;
     left: -49px;
-    scale: 55%;
+    transform: scale(0.5);
 }
 .tree .tree_decorations .header_star .star{
     margin: 50px 0; 
