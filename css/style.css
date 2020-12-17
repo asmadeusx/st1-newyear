@@ -1021,14 +1021,14 @@ h1{
     position: absolute;
     height: 100%;
     width: 5px;
-    background: #f3d8ff;
+    background: #ffe5ac;
     left: 50%;
 }
 .tree .present_boxes .present_box2 .box2_h_line{
     position: absolute;
     height: 5px;
     width: 100%;
-    background: #f3d8ff;
+    background: #ffe5ac;
     top: 50%;
 }
 .tree .present_boxes .present_box3{
@@ -1047,14 +1047,14 @@ h1{
     position: absolute;
     height: 100%;
     width: 5px;
-    background: #fffd7b;
+    background: #f3b7ff;
     left: 50%;
 }
 .tree .present_boxes .present_box3 .box3_h_line{
     position: absolute;
     height: 5px;
     width: 100%;
-    background: #fffd7b;
+    background: #f3b7ff;
     top: 50%;
 }
 /* ================================================================================================ */
