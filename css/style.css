@@ -39,6 +39,25 @@ h1{
     text-transform: uppercase;
     user-select: none;
 }
+.wish_text{
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.wish_text p{
+    color: #a4d4e7;
+    font-family: 'Segoe Print', 'Monotype Corsiva', 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    word-spacing: 3pt;
+    line-height: 1.5;
+}
 /* Описание стиля основной сцены сайта */
 .scene{
     height: 666px;
