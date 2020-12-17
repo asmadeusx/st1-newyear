@@ -186,7 +186,7 @@ h1{
 /* БЛОК СНЕГА */
 .bottom_snow_left{
     position: absolute;
-    z-index: 5;
+    z-index: 50;
     background: #e2e2e2;
     border-radius: 1000px;
     width: 1000px;
@@ -196,7 +196,7 @@ h1{
 }
 .bottom_snow_center{
     position: absolute;
-    z-index: 4;
+    z-index: 49;
     background: #c4c4c4;
     border-radius: 1000px;
     width: 1000px;
@@ -208,7 +208,7 @@ h1{
 }
 .bottom_snow_right{
     position: absolute;
-    z-index: 5;
+    z-index: 50;
     background: #e2e2e2;
     border-radius: 1000px;
     width: 1000px;
@@ -952,6 +952,91 @@ h1{
     width: 3px;
     top: 4px;
     left: 13px;
+}
+/* Блок ЕЛКИ - Подарки под ней */
+.tree .present_boxes{
+    position: relative;
+    z-index: 30;
+    top: 280px;
+    left: -35px;
+}
+.tree .present_boxes .present_box1{
+    position: absolute;
+    z-index: 31;
+    background: #0093d8;
+    background-image: url('../img/deer.png');
+    background-repeat: repeat;
+    background-size: 40%;
+    height: 30px;
+    width: 60px;
+    top: 10px;
+    left: 40px;
+}
+.tree .present_boxes .present_box1 .box1_v_line{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #00f7ff;
+    left: 50%;
+}
+.tree .present_boxes .present_box1 .box1_h_line{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #00f7ff;
+    top: 50%;
+}
+.tree .present_boxes .present_box2{
+    position: absolute;
+    z-index: 32;
+    background: #e4862e;
+    background-image: url('../img/unicorn.png');
+    background-repeat: repeat;
+    background-size: 40%;
+    height: 50px;
+    width: 50px;
+    top: -10px;
+    left: -30px;
+}
+.tree .present_boxes .present_box2 .box2_v_line{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #f3d8ff;
+    left: 50%;
+}
+.tree .present_boxes .present_box2 .box2_h_line{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #f3d8ff;
+    top: 50%;
+}
+.tree .present_boxes .present_box3{
+    position: absolute;
+    z-index: 33;
+    background: #4c00a3;
+    background-image: url('../img/snowman.png');
+    background-repeat: repeat;
+    background-size: 60%;
+    height: 45px;
+    width: 25px;
+    top: -5px;
+    left: 10px;
+}
+.tree .present_boxes .present_box3 .box3_v_line{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #fffd7b;
+    left: 50%;
+}
+.tree .present_boxes .present_box3 .box3_h_line{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #fffd7b;
+    top: 50%;
 }
 /* ================================================================================================ */
 
