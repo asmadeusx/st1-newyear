@@ -45,6 +45,7 @@ header{
     text-align: center;
     height: 20px;
     max-width: 222px;
+    font-size: 12px;
 }
 .main-content .timer_box .timer_counter{
     display: flex;
@@ -81,7 +82,7 @@ header{
     z-index: 52;
     color: #570000;
     font-family: 'Segoe Print', 'Monotype Corsiva', 'Trebuchet MS';
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     letter-spacing: 1pt;
     line-height: 1.5;
