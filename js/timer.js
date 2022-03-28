@@ -9,7 +9,7 @@ function decOfNum(number, titles)
 }
 
 // Выставление даты до которой таймер считает дни, т.е. в нашем случае НГ
-var countDownDate = new Date("Jan 1, 2022 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
 
 // Для тестов
 // var countDownDate = new Date("Dec 18, 2020 16:52:00").getTime();
